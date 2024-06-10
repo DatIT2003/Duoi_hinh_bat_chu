@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backro"
+    tools:context=".ChoiGameActivity">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+</RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/imgAnhCauDo"
+            android:background="#000000"
+            android:scaleType="centerInside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/demo"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp">
+        <GridView
+
+            android:id="@+id/gdvCauTraLoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></GridView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff00">
+        <GridView
+android:gravity="center"
+            android:id="@+id/gdvDapAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></GridView>
+    </RelativeLayout>
+</LinearLayout>
